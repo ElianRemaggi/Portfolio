@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    min-height: 100vh;
+    background: linear-gradient(to left bottom, rgb(164, 230, 250),rgb(142, 241, 212));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.glass{
+background: white;
+min-height: 75vh;
+width: 60%;
+background: linear-gradient(to right bottom, rgba(255,255,255,0.7),rgba(255,255,255,0.3));
+border-radius: 2rem;
+z-index: 10;
+backdrop-filter: blur(2rem);
+}
+
+.circle1,
+.circle2{
+    background: white;
+    background: linear-gradient(to right bottom, rgba(255,255,255,0.7),rgba(255,255,255,0.3));
+    height: 20rem;
+    width: 20rem;
+    position: absolute;
+    z-index: 1;
+    border-radius: 50%;
+}
+
+.circle1{
+
+    bottom: 4%;
+    left: 15%;
+    height: 15rem;
+    width: 15rem;
+}
+.circle2{
+    
+    top: 5%;
+    right: 7%
+
+}
+
+
+.tittle{
+
+}
+
+.avatar{
+    size: 25%;
+    border-radius: 50%;
+    
+}
+
+.icon {
+    font-size: 5rem ;
+}
+
+.iconCV {
+    width: 5rem ;
+}
+
+#link::-webkit-textfield-decoration-container{
+    color: black;
+}
