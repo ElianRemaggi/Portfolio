@@ -16,7 +16,7 @@ main{
 .glass{
 background: white;
 min-height: 75vh;
-width: 60%;
+width: 75%;
 background: linear-gradient(to right bottom, rgba(255,255,255,0.7),rgba(255,255,255,0.3));
 border-radius: 2rem;
 z-index: 10;
@@ -40,6 +40,7 @@ display: flex;
     font-weight: 600;
     color: #426696;
 }
+
 #title2 h2{
     color: #426696;
 
@@ -49,7 +50,7 @@ display: flex;
     width: auto;
     height: .5rem;
     margin-right: 3rem;
-    color: #426696;
+    background: #426696;
     margin-bottom: 2rem;
     border-radius: 2rem;
 }
@@ -112,15 +113,12 @@ display: flex;
     bottom: 25%;
     right: 20%
 }
-.
 
 #title2{
     margin-bottom: 2rem;
 }
 
-a {
-    color: rgb(59, 151, 255);   
-}
+
 
 .links h3{
     padding: 0rem 2rem;
@@ -131,6 +129,15 @@ a {
     display: flex;
     margin: .5rem 0rem;
     padding: .5rem .5rem;
+    transition: all .5s;
+}
+
+a {
+    color: rgb(59, 151, 255);   
+}
+
+a:hover{
+    color: #426696;
 }
 
 .iconCV {
