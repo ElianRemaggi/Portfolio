@@ -77,6 +77,10 @@ display: flex;
     justify-content: center;
     opacity: 0.7;
     box-shadow: 6px 6px 20px rgb(125, 222, 235);
+    word-wrap: break-word;
+    display:block;
+    overflow:auto;
+    width: 100%;
 }
 .avatar{
     size: 25%;
@@ -153,16 +157,24 @@ a:hover{
     div{
         display: block; 
         width: 100%;
-        
+        box-sizing: border-box;
         padding: auto;
     }
 
     .glass{
         display: block;
+        box-sizing: border-box;
     }
 
     div p{
-        display: block
+        display: block;
+        box-sizing: border-box;
     }
 
+    .bigsecction div{
+        padding: 1rem;
+        width: 200%;
+        position: relative;
+        left: -9vh;
+    }
 }
