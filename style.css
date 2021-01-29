@@ -104,7 +104,7 @@ display: flex;
 .circle1{
 
     bottom: 4%;
-    left: 15%;
+    left: 7%;
     height: 15rem;
     width: 15rem;
 }
@@ -113,8 +113,8 @@ display: flex;
     right: 7%
 }
 .circle3{  
-    bottom: 25%;
-    right: 20%
+    bottom: 15%;
+    right: 2%
 }
 
 #title2{
@@ -224,4 +224,4 @@ a:hover{
     }
 }
     
-}
+
