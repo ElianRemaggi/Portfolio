@@ -7,7 +7,7 @@
 
 main{
     min-height: 100vh;
-    background: linear-gradient(to left bottom, rgb(164, 230, 250),rgb(142, 241, 212));
+    background: linear-gradient(to bottom, rgb(164, 230, 250),rgb(120,120,250));
     display: flex;
     align-items: center;
     justify-content: center;
@@ -69,7 +69,6 @@ display: flex;
 }
 
 .bigsecction div{
-    display: flex;
     background: linear-gradient(to right bottom, rgba(255,255,255,0.7),rgba(255,255,255,0.3));
     margin: 2rem 0rem;
     padding: 1rem;
@@ -156,14 +155,23 @@ a:hover{
 @media only screen and (max-width: 800px){
     div{
         display: block; 
-        width: 100%;
+        width: 80%;
         box-sizing: border-box;
         padding: auto;
     }
 
+    
     .glass{
         display: block;
         box-sizing: border-box;
+    }
+
+    .dashboard{
+        width: 100%;
+    }
+    
+    .links{
+        
     }
 
     div p{
@@ -171,10 +179,49 @@ a:hover{
         box-sizing: border-box;
     }
 
-    .bigsecction div{
+    .bigsecction{
+        justify-content: center;
+        width: 100%;
         padding: 1rem;
-        width: 200%;
-        position: relative;
-        left: -9vh;
     }
+
+    .bigsecction div{
+        padding: auto;
+        width: auto;
+        left: -50%;
+        justify-content: center;
+    }
+    .circle0,
+    .circle1,
+    .circle2,
+    .circle3{
+    background: white;
+    background: linear-gradient(to right bottom, rgba(255,255,255,0.7),rgba(255,255,255,0.3));
+    height: 15rem;
+    width: 15rem;
+    position: fixed;
+    z-index: 1;
+    border-radius: 50%;
+    }
+    .circle0{
+        top: 2%;
+        left: 0.2%;
+        width: 5rem;
+        height: 5rem;
+    }
+    .circle1{
+
+        bottom: 2%;
+        left: 50%;
+    }
+    .circle2{  
+        top: 5%;
+        right: 7%
+    }
+    .circle3{  
+        bottom: 10rem;
+        left: 1rem;
+    }
+}
+    
 }
