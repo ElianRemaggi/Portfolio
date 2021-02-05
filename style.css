@@ -152,6 +152,15 @@ a:hover{
     color: #426696;
 }
 
+.icono-galeria{
+    width: 6rem ;
+    margin: .5rem 0rem;
+    padding: .5rem .5rem;
+    display: flex;
+    align-items: center;
+    color: #426696;
+}
+
 @media only screen and (max-width: 800px){
     div{
         display: block; 
