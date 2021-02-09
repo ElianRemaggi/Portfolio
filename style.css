@@ -80,6 +80,41 @@ display: flex;
     display:block;
     overflow:auto;
     width: 100%;
+    position: relative;
+    animation-name: flotar;
+    animation-duration: 15s;
+    animation-iteration-count: 10;
+    
+}
+@keyframes flotar {
+    0%{
+        
+        left: 0cm;
+    }
+    25%{
+        left: 5%;
+    }
+
+    50%{
+        left: 0%;
+    }
+
+    75%{
+        left: 5%;
+    }
+
+    100%{ 
+        left: 0cm;
+    }
+}
+
+
+.bigsecction div:hover{
+    padding: 2rem;
+    transition: 1s;
+    animation-name: none;
+    font-size: 120%;
+    transition-timing-function: ease-out;
 }
 .avatar{
     size: 25%;
@@ -161,6 +196,8 @@ a:hover{
     color: #426696;
 }
 
+
+
 @media only screen and (max-width: 800px){
     div{
         display: block; 
@@ -200,6 +237,14 @@ a:hover{
         left: -50%;
         justify-content: center;
     }
+
+    .bigsecction div:hover{
+        position: static;
+        padding: auto;
+        transition: 1s;
+        font-size: 120%;
+    }
+
     .circle0,
     .circle1,
     .circle2,
