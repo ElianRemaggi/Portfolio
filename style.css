@@ -55,7 +55,7 @@ display: flex;
     border-radius: 2rem;
 }
 
-#links{
+.links{
     
     color: rgb(59, 151, 255);
 }
@@ -199,6 +199,12 @@ a:hover{
 
 
 @media only screen and (max-width: 800px){
+
+    main{
+        padding: 2rem;
+    }
+    
+
     div{
         display: block; 
         width: 80%;
@@ -217,7 +223,11 @@ a:hover{
     }
     
     .links{
-        
+        display: grid;
+        justify-content: center;
+    }
+    .icon{
+        display: flex;
     }
 
     div p{
@@ -226,15 +236,15 @@ a:hover{
     }
 
     .bigsecction{
+        margin: 2rem;
         justify-content: center;
         width: 100%;
         padding: 1rem;
     }
 
-    .bigsecction div{
+    .bigsecction div{        
         padding: auto;
-        width: auto;
-        left: -50%;
+        width: 80%;
         justify-content: center;
     }
 
